@@ -3,7 +3,6 @@ Pod::Spec.new do |s|
   s.name         = "RuntimeLib"
   s.version      = "0.0.1"
   s.summary      = "iOS runtime tools"
-  s.description  = "一款简单的方式来体验iOS的runtime"
   s.homepage     = "https://github.com/X-Reynold/RuntimeLib"
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
