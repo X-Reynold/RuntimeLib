@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.author       = { "Reynold" => "602272683@qq.com" }
- 
+
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/X-Reynold/RuntimeLib.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/X-Reynold/RuntimeLib.git",:commit => "5d422e1", :tag => s.version }
   s.source_files  = "Runtime/*"
   #s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
