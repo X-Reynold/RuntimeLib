@@ -11,7 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface XLRuntimeHeader : NSObject
-+(void)test;
+
++(NSArray *)getAllMethodsWithClassName:(NSString *)className;
+
++(NSArray *)getAllPropertyWithClassName:(NSString *)className;
+
 @end
 
 NS_ASSUME_NONNULL_END
